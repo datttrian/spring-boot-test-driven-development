@@ -1,5 +1,5 @@
-chmod +x postgres-start.sh
-./postgres-start.sh
+chmod +x bin/postgres-start.sh
+bin/postgres-start.sh
 docker ps
 docker exec -it local-pg /bin/bash
 psql -d postgres postgres
